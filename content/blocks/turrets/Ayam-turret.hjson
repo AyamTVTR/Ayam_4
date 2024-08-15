@@ -1,7 +1,7 @@
 name: Ayam-turret
 localizedName: Ayam Turret
 requirements: [
-noooooo/13
+Nooooo/13
 ]
 research: {
     parent: Core
@@ -26,7 +26,7 @@ category: turret
 reload: 70                  //Перезарядка
 //Виды пуль (боеприпасов)
 "ammoTypes": {
-                    "noooooo": {
+                    "Nooooo": {
                     type: BasicBulletType
                     lifetime: 52
                     speed: 1
