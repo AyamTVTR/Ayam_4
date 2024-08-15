@@ -50,6 +50,31 @@ reload: 70                  //Перезарядка
                         lightningLengthRand: 4.56
                         lightningDamage: 10
                         lightningColor: 4f4f4f
+                       },
+           "noooooo": {
+                    type: BasicBulletType
+                    lifetime: 52
+                    speed: 9
+                    lightning: 1
+                    lightningColor: 00cdd4
+                    lightningLengthRand: 4.56
+                    lightningLength: 10
+                    lightningDamage: 7
+                    sprite: large-orb
+                    hitEffect: none
+                    despawnEffect: none
+                    despawnSound: spark
+                    frontColor: 616060
+                    damage: 90
+                    backColor: 505050
+                    bulletInterval: 3.2
+                    //Интервальная пуля
+                    intervalBullet: {
+                        type: LightningBulletType
+                        lightningLength: 5
+                        lightningLengthRand: 4.56
+                        lightningDamage: 90
+                        lightningColor: 4f4f4f
                        }
                    }
 }
