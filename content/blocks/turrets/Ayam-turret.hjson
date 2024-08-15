@@ -26,35 +26,10 @@ category: turret
 reload: 70                  //Перезарядка
 //Виды пуль (боеприпасов)
 "ammoTypes": {
-    "testItem": {
-                    type: BasicBulletType
-                    lifetime: 100
-                    speed: 1
-                    lightning: 7
-                    lightningColor: 00cdd4
-                    lightningLengthRand: 4.56
-                    lightningLength: 10
-                    lightningDamage: 7
-                    sprite: large-orb
-                    hitEffect: none
-                    despawnEffect: none
-                    despawnSound: spark
-                    frontColor: 616060
-                    damage: 35
-                    backColor: 505050
-                    bulletInterval: 3.2
-                    //Интервальная пуля
-                    intervalBullet: {
-                        type: LightningBulletType
-                        lightningLength: 3
-                        lightningLengthRand: 4.56
-                        lightningDamage: 10
-                        lightningColor: 4f4f4f
-                       },
-           "noooooo": {
+                    "noooooo": {
                     type: BasicBulletType
                     lifetime: 52
-                    speed: 9
+                    speed: 1
                     lightning: 1
                     lightningColor: 00cdd4
                     lightningLengthRand: 4.56
