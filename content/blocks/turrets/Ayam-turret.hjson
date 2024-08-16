@@ -96,9 +96,9 @@ reload: 70                  //Перезарядка
                     //Интервальная пуля
                     intervalBullet: {
                         type: LightningBulletType
-                        lightningLength: 1
+                        lightningLength: 4
                         lightningLengthRand: 4.56
-                        lightningDamage: 90
+                        lightningDamage: 7
                         lightningColor: 4f4f4f
                        }
                    }
